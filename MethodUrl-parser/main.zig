@@ -44,8 +44,7 @@ pub fn main() !void {
     };
 
     std.debug.print("Method: \"{s}\"\n", .{result.method});
-    std.debug.print("url: \"{s}\"\n", .{result.url});
+    std.debug.print("Url: \"{s}\"\n", .{result.url});
 }
-
 
 
